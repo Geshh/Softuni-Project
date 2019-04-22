@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+    <th:block th:include="~{fragments/head}">
+    </th:block>
+    <title>Title</title>
+</head>
+
+<body id="page-top">
+<th:block th:include="~{fragments/navbar}">
+</th:block>
+
+<div class="container">
+    <form class="form" th:action="@{/lines/create}" th:method="post"
+          th:object="${lineAddBindingModel}">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputFrom">From</label> <input type="text"
+                                                            class="form-control" id="inputFrom"
+                                                            placeholder="From"
+                                                            th:field="*{from}">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputTo">To</label> <input type="text"
+                                                          class="form-control" id="inputTo" placeholder="To"
+                                                          th:field="*{to}">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Create</button>
+    </form>
+</div>
+<th:block th:include="~{fragments/footer}">
+</th:block>
+
+<a class="scroll-to-top rounded" href="#page-top"> <i class="fas fa-angle-up"></i></a>
+
+<th:block th:include="~{fragments/logout_modal}">
+</th:block>
+<th:block th:include="~{fragments/core_js_imports}">
+</th:block>
+</body>
+</html>

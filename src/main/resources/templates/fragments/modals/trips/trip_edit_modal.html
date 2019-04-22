@@ -1,0 +1,88 @@
+<th:block th:fragment="trip_edit_modal">
+    <div class="modal fade" th:id="|trip_edit_modal_*{id}|">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" th:text="|*{line.from}-*{line.to} - Edit|"></h5>
+                    <button type="button" class="close" data-dismiss="modal"
+                            aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form th:id="|trip_edit_form_*{id}|" class="form"
+                      th:action="@{'/trips/edit/' + *{id}}" th:method="put">
+                    <div class="modal-body">
+                        <div>
+                            <input type="text" name="line" th:value="*{line.id}" hidden/>
+                            <input type="text" name="bus" th:value="*{bus.id}" hidden/>
+                        </div>
+                        <div class="form-group">
+                            <label for="editFrom" class="font-weight-bold">From
+                            </label> <input type="text" class="form-control text-center"
+                                            id="editFrom" name="from"
+                                            th:value="*{line.from}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label for="editTo" class="font-weight-bold">To
+                            </label>
+                            <input type="text" class="form-control text-center"
+                                   id="editTo" name="to"
+                                   th:value="*{line.to}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label for="editBrand" class="font-weight-bold">Brand
+                            </label> <input type="text" class="form-control text-center"
+                                            id="editBrand" name="brand"
+                                            th:value="*{bus.brand}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label for="editRegistrationNumber" class="font-weight-bold">Registration Number
+                            </label> <input type="text" class="form-control text-center"
+                                            id="editRegistrationNumber" name="registrationNumber"
+                                            th:value="*{bus.registrationNumber}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label for="editCapacity" class="font-weight-bold">Capacity
+                            </label> <input type="number" class="form-control text-center"
+                                            id="editCapacity" name="capacity"
+                                            th:value="*{bus.capacity}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label for="editPrice" class="font-weight-bold">Price
+                            </label> <input type="number" class="form-control text-center"
+                                            id="editPrice" name="price"
+                                            th:value="*{price}"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="editDate" class="font-weight-bold">Date of departure
+                            </label> <input type="date" class="form-control text-center"
+                                            id="editDate" name="dateTimeOfDeparture"
+                                            th:value="*{dateTimeOfDeparture}"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="editSeatsAvailable" class="font-weight-bold">Seats Available
+                            </label> <input type="number" class="form-control text-center"
+                                            id="editSeatsAvailable" name="seatsAvailable"
+                                            th:value="*{seatsAvailable}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label for="editSeatsReserved" class="font-weight-bold">Seats Reserved
+                            </label> <input type="number" class="form-control text-center"
+                                            id="editSeatsReserved" name="seatsReserved"
+                                            th:value="*{seatsReserved}"/>
+                        </div>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-between">
+                        <button type="submit" class="btn btn-success" data-dismiss="modal"
+                                th:onclick="javascript:$('#trip_edit_form_' + [[*{id}]]).submit()">Save
+                            Changes
+                        </button>
+                        <button type="button" class="btn btn-secondary"
+                                data-dismiss="modal">Cancel
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</th:block>

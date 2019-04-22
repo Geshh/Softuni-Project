@@ -1,0 +1,51 @@
+<th:block th:fragment="user_edit_modal">
+    <div class="modal fade" th:id="|user_edit_modal_*{id}|">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" th:text="|*{username} - Edit|"></h5>
+                    <button type="button" class="close" data-dismiss="modal"
+                            aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form th:id="|user_edit_form_*{id}|" class="form"
+                      th:action="@{'/users/edit/' + *{id}}" th:method="put">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="editUserName" class="font-weight-bold">Name
+                            </label> <input type="text" class="form-control text-center"
+                                            id="editUserName" name="name"
+                                            th:value="*{name}"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="editUserEmail" class="font-weight-bold">Email</label>
+                            <input type="email" class="form-control text-center"
+                                   id="editUserEmail" name="mail" th:value="*{mail}"/>
+                        </div>
+                        <!--<div class="form-group">-->
+                        <!--<label class="form-check-label" for="user-details-roles">Roles</label>-->
+                        <!--<select class="form-control text-center" name="authorities" id="user-details-roles"-->
+                        <!--th:value="*{authorities}"-->
+                        <!--multiple>-->
+                        <!--<option>ROLE_ADMIN</option>-->
+                        <!--<option>ROLE_USER</option>-->
+                        <!--&lt;!&ndash;<option th:each="role : *{authorities}"&ndash;&gt;-->
+                        <!--&lt;!&ndash;th:text="${role}"></option>&ndash;&gt;-->
+                        <!--</select>-->
+                        <!--</div>-->
+                    </div>
+                    <div class="modal-footer d-flex justify-content-between">
+                        <button type="submit" class="btn btn-success" data-dismiss="modal"
+                                th:onclick="javascript:$('#user_edit_form_' + [[*{id}]]).submit()">Save
+                            Changes
+                        </button>
+                        <button type="button" class="btn btn-secondary"
+                                data-dismiss="modal">Cancel
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</th:block>

@@ -1,0 +1,48 @@
+<th:block th:fragment="user_details_modal" xmlns:th="http://www.w3.org/1999/xhtml">
+    <div class="modal fade" th:id="|user_details_modal_*{id}|">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" th:text="|*{username} - Details|"></h5>
+                    <button type="button" class="close" data-dismiss="modal"
+                            aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form th:id="|user_details_form_*{id}|" class="form">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="user-details-id" class="font-weight-bold">id</label>
+                            <input type="text" class="form-control text-center"
+                                   id="user-details-id" name="id" th:value="*{id}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-details-name" class="font-weight-bold">First
+                                Name</label> <input type="text" class="form-control text-center"
+                                                    id="user-details-name" name="name"
+                                                    th:value="*{name}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-details-mail" class="font-weight-bold">Email</label>
+                            <input class="form-control text-center" type="email" name="mail"
+                                   id="user-details-mail" th:value="*{mail}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-check-label" for="user-details-roles">Roles</label>
+                            <select class="form-control text-center" name="authorities" id="user-details-roles"
+                                    multiple>
+                                <option disabled th:each="role : *{authorities}"
+                                        th:text="${role}"></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-between">
+                        <button type="button" class="btn btn-danger btn-block" data-dismiss="modal"
+                                data-toggle="modal" th:data-target="|#user_edit_modal_*{id}|">Edit
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</th:block>
