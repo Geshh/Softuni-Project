@@ -1,6 +1,5 @@
 package com.lulchev.busticketreservation.service;
 
-import com.lulchev.busticketreservation.commons.constants.RoleConstants;
 import com.lulchev.busticketreservation.domain.entitiy.User;
 import com.lulchev.busticketreservation.domain.model.service.RoleServiceModel;
 import com.lulchev.busticketreservation.domain.model.service.UserEditServiceModel;
