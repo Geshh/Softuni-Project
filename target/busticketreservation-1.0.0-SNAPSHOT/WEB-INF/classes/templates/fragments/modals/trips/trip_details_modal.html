@@ -1,0 +1,66 @@
+<th:block th:fragment="trip_details_modal" xmlns:th="http://www.w3.org/1999/xhtml">
+    <div class="modal fade" th:id="|trip_details_modal_*{id}|">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" th:text="|*{from}-*{to} - Details|"></h5>
+                    <button type="button" class="close" data-dismiss="modal"
+                            aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form th:id="|trip_details_form_*{id}|" class="form">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="user-details-id" class="font-weight-bold">id</label>
+                            <input type="text" class="form-control text-center"
+                                   id="user-details-id" name="id" th:value="*{id}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label for="trip-details-from" class="font-weight-bold">From</label>
+                            <input type="text" class="form-control text-center"
+                                   id="trip-details-from" name="from"
+                                   th:value="*{line.from}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label for="trip-details-to" class="font-weight-bold">To</label>
+                            <input class="form-control text-center" type="text" name="to"
+                                   id="trip-details-to" th:value="*{line.to}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-check-label" for="trip-details-brand">Bus Brand</label>
+                            <input class="form-control text-center" type="text" name="brand"
+                                   id="trip-details-brand" th:value="*{bus.brand}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-check-label" for="trip-details-reg-number">Registration Number</label>
+                            <input class="form-control text-center" type="text" name="registrationNumber"
+                                   id="trip-details-reg-number" th:value="*{bus.registrationNumber}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-check-label" for="trip-details-capacity">Capacity</label>
+                            <input class="form-control text-center" type="number" name="capacity"
+                                   id="trip-details-capacity" th:value="*{bus.capacity}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-check-label" for="trip-details-price">Price</label>
+                            <input class="form-control text-center" type="number" name="price"
+                                   id="trip-details-price" th:value="*{price}" disabled/>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-check-label" for="trip-details-departure">Price</label>
+                            <input class="form-control text-center" type="date" name="dateTimeOfDeparture"
+                                   id="trip-details-departure" th:value="*{dateTimeOfDeparture}" disabled/>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer d-flex justify-content-between">
+                        <button type="button" class="btn btn-danger btn-block" data-dismiss="modal"
+                                data-toggle="modal" th:data-target="|#trip_edit_modal_*{id}|">Edit
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</th:block>

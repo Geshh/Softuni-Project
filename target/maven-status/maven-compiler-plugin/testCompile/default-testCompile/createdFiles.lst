@@ -1,0 +1,13 @@
+com\lulchev\busticketreservation\BusticketreservationApplicationTests.class
+com\lulchev\busticketreservation\controller\UserControllerTestFixThisShit.class
+com\lulchev\busticketreservation\service\BusServiceTest.class
+com\lulchev\busticketreservation\service\LineServiceTest.class
+com\lulchev\busticketreservation\service\ReservationTicketServiceTest.class
+com\lulchev\busticketreservation\controller\LinesControllerTest.class
+com\lulchev\busticketreservation\controller\TripControllerTest.class
+com\lulchev\busticketreservation\controller\BusControllerTest.class
+com\lulchev\busticketreservation\service\UserServiceTest.class
+com\lulchev\busticketreservation\controller\HomeControllerTest.class
+com\lulchev\busticketreservation\service\RoleServiceTest.class
+com\lulchev\busticketreservation\controller\ReservationTicketControllerTest.class
+com\lulchev\busticketreservation\service\TripServiceTest.class
