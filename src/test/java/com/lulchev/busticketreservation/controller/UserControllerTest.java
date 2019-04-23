@@ -76,7 +76,7 @@ public class UserControllerTest {
     public void delete_deletesEntityCorrectly() throws Exception {
         final UserServiceModel userServiceModel = registerUser("username", "random@abv.bg");
         mvc.perform(delete("/users/delete/" + userServiceModel.getId()))
-                .andExpect(redirectedUrl("/users"));
+                .andExpect(redirectedUrl("/users?favicon=https%3A%2F%2Fwww.download3k.de%2Ficons%2FBus-Driver-199713.png"));
 
         Assert.assertEquals(userRepository.count(), 1);
     }

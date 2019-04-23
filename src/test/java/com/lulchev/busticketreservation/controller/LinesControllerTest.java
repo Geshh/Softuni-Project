@@ -63,7 +63,7 @@ public class LinesControllerTest {
                 post("/lines/create")
                         .param("from", "from_dest")
                         .param("to", "to_dest"))
-                .andExpect(redirectedUrl("/lines"));
+                .andExpect(redirectedUrl("/lines?favicon=https%3A%2F%2Fwww.download3k.de%2Ficons%2FBus-Driver-199713.png"));
     }
 
     @Test

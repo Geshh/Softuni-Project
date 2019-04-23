@@ -65,7 +65,7 @@ public class BusControllerTest {
                         .param("capacity", "123")
                         .param("brand", "brand")
                         .param("registrationNumber", "123"))
-                .andExpect(redirectedUrl("/buses"));
+                .andExpect(redirectedUrl("/buses?favicon=https%3A%2F%2Fwww.download3k.de%2Ficons%2FBus-Driver-199713.png"));
     }
 
     @Test

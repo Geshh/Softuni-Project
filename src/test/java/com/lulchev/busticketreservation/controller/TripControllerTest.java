@@ -104,7 +104,7 @@ public class TripControllerTest {
                         .param("bus", bus.getId())
                         .param("price", "123")
                         .param("dateTimeOfDeparture", String.valueOf(LocalDate.now())))
-                .andExpect(redirectedUrl("/trips"));
+                .andExpect(redirectedUrl("/trips?favicon=https%3A%2F%2Fwww.download3k.de%2Ficons%2FBus-Driver-199713.png"));
     }
 
     @Test
