@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21df713c-515a-467f-b299-94168d58e330" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lulchev/busticketreservation/commons/constants/RoleConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/BusControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/BusControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/LinesControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/LinesControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/TripControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/TripControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/UserControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/service/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,95 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <marker date="1556006058931" expanded="true" signature="563:1054" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/service/LineServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/service/BusServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/BusControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="67" column="120" selection-start-line="67" selection-start-column="120" selection-end-line="67" selection-end-column="120" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/HomeControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/LinesControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="65" column="120" selection-start-line="65" selection-start-column="120" selection-end-line="65" selection-end-column="120" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/ReservationTicketControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/TripControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1722">
-              <caret line="106" column="120" selection-start-line="106" selection-start-column="120" selection-end-line="106" selection-end-column="120" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/UserControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/service/UserServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="78" column="120" selection-start-line="78" selection-start-column="120" selection-end-line="78" selection-end-column="120" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/service/ReservationTicketServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            <state relative-caret-position="168">
+              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -281,12 +189,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/head.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/lulchev/busticketreservation/system.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/lulchev/busticketreservation/web/schedule/CronJobs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/service/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/BusControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/LinesControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/TripControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/UserControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/service/UserServiceTest.java" />
       </list>
     </option>
   </component>
@@ -491,7 +399,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556006379932" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556006508836" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CarDealer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -530,22 +438,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest">
-    <configuration name="HomeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="busticketreservation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lulchev.busticketreservation.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lulchev.busticketreservation.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.lulchev.busticketreservation.controller.HomeControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserServiceTest">
     <configuration name="LinesControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="busticketreservation" />
       <extension name="coverage">
@@ -606,6 +499,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="busticketreservation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lulchev.busticketreservation.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lulchev.busticketreservation.service" />
+      <option name="MAIN_CLASS_NAME" value="com.lulchev.busticketreservation.service.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BusticketreservationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="busticketreservation" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lulchev.busticketreservation.BusticketreservationApplication" />
@@ -615,11 +523,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.UserControllerTest" />
         <item itemvalue="JUnit.TripControllerTest" />
         <item itemvalue="JUnit.ReservationTicketControllerTest" />
         <item itemvalue="JUnit.LinesControllerTest" />
-        <item itemvalue="JUnit.HomeControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -646,20 +554,11 @@
       <workItem from="1555753283714" duration="8202000" />
       <workItem from="1555846443500" duration="44467000" />
       <workItem from="1555949450001" duration="13266000" />
-      <workItem from="1555964925756" duration="7605000" />
+      <workItem from="1555964925756" duration="7735000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BusServiceTest - 2019.04.23 at 10h 55m 02s.xml">
-      <configuration name="BusServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BusControllerTest - 2019.04.23 at 10h 55m 21s.xml">
-      <configuration name="BusControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BusControllerTest - 2019.04.23 at 10h 56m 12s.xml">
-      <configuration name="BusControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HomeControllerTest - 2019.04.23 at 10h 56m 28s.xml">
       <configuration name="HomeControllerTest" configurationId="JUnit" />
     </history-entry>
@@ -681,9 +580,18 @@
     <history-entry file="UserControllerTest - 2019.04.23 at 10h 58m 58s.xml">
       <configuration name="UserControllerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserControllerTest - 2019.04.23 at 10h 59m 59s.xml">
+      <configuration name="UserControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.04.23 at 11h 01m 10s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.04.23 at 11h 01m 46s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155432000" />
+    <option name="totallyTimeSpent" value="155562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -1057,16 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/service/UserServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/service/TripServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -1152,8 +1050,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/controller/UserControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="78" column="120" selection-start-line="78" selection-start-column="120" selection-end-line="78" selection-end-column="120" />
+        <state relative-caret-position="210">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lulchev/busticketreservation/service/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
